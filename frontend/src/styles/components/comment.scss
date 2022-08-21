@@ -1,0 +1,91 @@
+
+.Mycomment{
+    margin-top: 25px;
+    display: flex;
+
+    .CommentId{
+        background-color: $color-tertaire;
+        border-radius: 10px;
+        margin-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-left: -20px;
+    }
+}
+
+.pictureComment{
+    width: 100px;
+    height: 110px;
+    object-fit: fill;
+    margin-right: 20px;
+    border-radius: 10px 0px 0px 10px; 
+}
+
+#logoeditComment{
+    margin-left: 10px;
+}
+
+.picturCommentId{
+    margin-bottom: -5px!important;
+}
+
+#commentLogo{
+    color: #f0b6b6;
+    font-size: map-get($size, MP);   
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.otherComment{
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+    background-color: #f8d1d1;
+    border-radius: 15px;
+}
+
+.pseudoComment{
+    margin-top: 10px;
+    color: black!important;
+}
+
+.messageComment{
+    color: black!important;
+    margin-right: 10px;
+}
+
+#textareaCommentForm{
+   border: 1px solid white;
+   padding-left: 5px;
+   font-size: 16px;
+   font-weight: bold;;
+}
+
+.cardCommentaire{
+    margin-bottom: 20px;
+}
+
+.Mycomment .CommentId .messageComment {color: white!important;}
+
+.Mycomment .CommentId .pseudoComment {color: white!important;}
+
+@media screen and (max-width: 992px){
+
+    .commentContenaire{
+        margin-left: -140px;
+        margin-top: 60px;
+
+        .pseudoComment{
+            margin-top: 10px;
+        }
+    }
+}
+
+@media screen and (max-width: 599px){
+
+    .commentContenaire{
+        margin-left: -160px!important;
+    }
+}

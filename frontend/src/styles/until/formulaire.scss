@@ -1,0 +1,29 @@
+#formulaire-login{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 1.1em;
+    width: 250px;
+
+    #email, #password, #pseudo{
+        margin-bottom: 25px;
+        height: 25px;  
+    }
+
+    #emailConnexion, #passwordConnexion, #pseudoConnexion{
+        display: flex;
+        justify-content: center;  
+    }
+
+    .InscriptionError{
+        color: $color-primary;
+        padding-top: 10px;
+    }
+}
+
+    #updateMessageTextarea{
+        width: 600px;
+        background-color: $color-secondary;
+        border: 1px solid white;
+    }

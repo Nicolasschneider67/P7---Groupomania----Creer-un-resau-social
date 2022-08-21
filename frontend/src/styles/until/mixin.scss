@@ -1,0 +1,8 @@
+@mixin bouton($width: 200px, $font-size: 20px, $font-weight: bold, $color: $color-primary)
+{
+    width: $width;
+    font-size: $font-size;
+    font-weight: $font-weight;
+    color: $color;
+}
+

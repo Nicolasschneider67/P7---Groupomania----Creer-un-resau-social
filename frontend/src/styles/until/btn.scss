@@ -1,0 +1,59 @@
+.login-btn {
+    background: #4E516599;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 0px 20px 20px 0px;
+    font-size: 1.4rem !important;
+}
+
+#btnConnexion{
+    @include bouton (100%, 1.2em, bold, white);
+    background: $color-tertaire;
+    border: 1px solid $color-tertaire;
+    height: 40px;
+    border-radius: 30px;
+}
+
+#btnProfil{
+    @include bouton(200px, 13px, bold, $color-secondary);
+    background-color: $color-tertaire;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+#btnMssg{
+    @include bouton (200px, 14px, bold, $color-secondary);
+    background-color: $color-tertaire;
+    border: 1px solid $color-tertaire;
+    margin-bottom: 13px;
+}
+
+#btnCommenter{
+    @include bouton (200px, 16px, bold, $color-secondary);
+    background-color: $color-tertaire;
+    border: 1px solid $color-tertaire;
+    margin-top: 35px;
+}
+
+#btnCommentEditForm{
+    @extend #btnMssg;
+}
+
+#telechargementImage input{
+        margin-top: 2px;
+    }
+
+.sendBtn { 
+    margin-top: 2px;
+    @include bouton(100px, 13px, bold, $color-secondary);
+    background-color: $color-tertaire;
+    border: 1px solid $color-tertaire;
+}
+
+.bntProfilUpdate{margin-bottom: -40px; margin-left: -40px;}
+
+@media screen and (min-width: 480px) and (max-width: 991px){
+    .sendBtn{
+        height: 21px;
+    }
+}

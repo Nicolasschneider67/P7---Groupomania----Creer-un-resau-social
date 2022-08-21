@@ -1,0 +1,76 @@
+.ContenaireHeader{
+    background-color: white;
+    padding: 20px 0px 20px 20px;
+
+    .TexteHeader{
+        padding-left: 20px;
+        font-size: 1.5em;
+        position: relative;
+        top: -25px;
+        color: $color-primary;
+        font-weight: bold;
+    }
+}
+
+.logoHeader{
+    width: 400px;
+    
+}
+
+.logOutHader{
+    width: 30px;
+    position: relative;
+    top: -100px;
+    left: 95%; 
+    cursor: pointer;
+    transform: rotate(180deg);
+}
+
+@media screen and (max-width: 992px){
+
+    head{ z-index: 50;}
+
+    .ContenaireHeader{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+        right: 80%!important;
+    }
+
+    .logoHeader{
+        width: 300px;
+    }
+
+    .logOutHader{
+        position: absolute;
+        top: 20px;
+        margin-right: 50px;
+    }
+
+    .TexteHeader{
+        font-size: 1rem;
+        margin-top: 30px;
+        margin-left: 80px;
+    }
+    };
+
+    @media screen and (min-width: 480px) and (max-width: 768px){
+
+        .TexteHeader{
+            font-size: map-get($size, petit)!important;
+            margin-top: 25px;
+            margin-left: 50px;
+        }
+        header{position: relative;}
+        .logOutHader{left: 90%!important;}
+    }
+
+    @media screen and (max-width: 767px) and (min-width: 414px){
+        .logoHeader{width: 250px!important;}
+
+        .TexteHeader{font-size: map-get($size, petit)!important;
+        padding-left: 0px!important;
+        margin-left: 0px;}
+
+        .logOutHader{left: 90%!important;}
+    }
