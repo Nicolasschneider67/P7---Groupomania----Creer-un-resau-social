@@ -7,8 +7,8 @@ Comment faire fonctionner le site ?
 2- Telecharger les pluggins référencés dans les fichiers package.json. Attention certains doivent être installés dans le dossier backend, d'autres dans le dossier frontend
 
 3- Dans le dossier backend, créer un fichier .env et le compléter de cette manière : 
-URL_CLIENT = http://localhost:5000 
-SECRET_TOKEN = variable
+URL_CLIENT = http://localhost:5000    //
+SECRET_TOKEN = variable     //
 SECRET_DB= (y référer le lien vers votre base de données. Sachant que le projet initial utilise MongoDB
 
 4- Dans le dossier frontend créer également un fichier .env et le compléter de cette manière :
