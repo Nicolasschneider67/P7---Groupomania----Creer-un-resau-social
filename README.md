@@ -22,3 +22,6 @@ REACT_APP_API_URL= http://localhost:3000
 vous rendre dans le dossier fs-temp/lib/write-stream.js De là remplacer la ligne WriteStream.call(this, null, options) par WriteStream.call(this, ' ', options)
 
 Bonne navigation !
+
+
+REMARQUES : Il se peut que la base de données se désactive en raison d'une inactivité trop longue de ma part. N'hésitez pas à me contacter si vous n'arrivez pas à vous y connecter
